@@ -27,8 +27,8 @@ def prediccion_insumo():
     data = request.get_json()
     insumo = Insumo(**data)
     import boto3
-    AWS_ACCESS_KEY = 'AKIA4HJUEW2NTPPWSE4N'
-    AWS_SECRET_KEY = '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'
+    AWS_ACCESS_KEY = ''
+    AWS_SECRET_KEY = ''
     bucket_name = 'agrounicor'
     file2_key = 'datos/vista_insumos.csv'
     s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY)
