@@ -8,8 +8,8 @@ from sympy import Point
 st.set_page_config(layout="wide")
 
 import boto3
-AWS_ACCESS_KEY = ''
-AWS_SECRET_KEY = ''
+AWS_ACCESS_KEY = 'AKIA4HJUEW2NZOZZ3YN7'
+AWS_SECRET_KEY = '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'
 bucket_name = 'agrounicor'
 file1_key = 'datos/VistaBI.csv'
 file2_key = 'datos/vista_insumos.csv'
